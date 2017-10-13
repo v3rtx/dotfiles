@@ -1,0 +1,41 @@
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ClassLength:
+  CountComments: false  # count full line comments?
+  Max: 200
+
+Metrics/ModuleLength:
+  CountComments: false  # count full line comments?
+  Max: 200
+
+Metrics/MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/CyclomaticComplexity:
+  Max: 8
+
+Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Naming/PredicateName:
+  NameWhitelist:
+    - 'has_access?'
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'Gemfile*'
+  TargetRubyVersion: '2.3.3'
+
+Rails:
+  Enabled: true
