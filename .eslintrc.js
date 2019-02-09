@@ -11,5 +11,9 @@ module.exports = {
         "func-names": "off",
         "one-var": ["error", "consecutive"],
         "default-case": ["error", { "commentPattern": "^skip\\sdefault" }]
+    },
+    "plugins": ["jasmine"],
+    "env": {
+      "jasmine": true
     }
 };

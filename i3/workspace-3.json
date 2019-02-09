@@ -1,0 +1,24 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1630,
+       "width": 2876,
+       "x": 4,
+       "y": 75
+    },
+    "name": "workspace-2.json — ~/.config/i3 — Atom",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^Atom$",
+        "instance": "^atom$",
+        "transient_for": "^$",
+        "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
